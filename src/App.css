@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,10 +35,59 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 /* //navbar */
 .menu {
   background-color: blue;
   color: white;
+}
+
+/* countrylist */
+
+.country {
+  border: 1px solid #000;
+  width: 45%;
+  padding: 40px;
+}
+.card-flag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flag-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.flag-link:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+/* app */
+.content {
+  display: flex;
+}
+
+/* details */
+.details-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.border-line {
+  /* padding-bottom: 5px; */
+  border-bottom: 1px solid #000;
+}
+.flag-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.border-list {
+  list-style: none;
 }
